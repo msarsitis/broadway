@@ -3,13 +3,15 @@ body {
   text-align: center;
   }
 
+.picture {
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+}
 .heading {
   font-size: 70px;
   font-weight: bold;
   color: white;
-  background-image: url("../images/the-flatiron-building.png");
-  background-repeat: no-repeat;
-}
+  }
 
 .navButtons {
   font-size: 18px;
@@ -17,7 +19,6 @@ body {
 }
 
 #process {
-  color: gray;
   font-size: 32px;
   font-weight: bold;
 }
@@ -25,12 +26,10 @@ body {
 .workFlow {
   font-size: 23px;
   font-weight: bold;
-  color: gray;
 }
 
 .definition {
   font-size: 14px;
-  color: gray;
 }
 
 .miniHeader{
@@ -39,4 +38,13 @@ body {
   color: white;
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
+}
+
+.foot {
+  text-align: left;
+  bottom: 0px;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  width: 100%;
 }
