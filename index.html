@@ -2,57 +2,60 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <link rel="./resources/css/style.css" type="text/css" style="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   <title>Broadway</title>
   </head>
 
   <!--Begin Website-->
   <body>
-    <h1>Broadway Design</h1>
-
-    <nav>
-      <a href="#home">Home</a></br>
-      <a href="#process">Process</a></br>
-      <a href="#work">Work</a></br>
-      <a href="#team">Team</a></br>
-      <a href="#contacts">Contact</a></br>
-    </nav>
+    <section>
+      <h1 class="heading">Broadway Design</p>
+      <nav class="navButtons">
+        <a href="#home">Home</a></br>
+        <a href="#process">Process</a></br>
+        <a href="#work">Work</a></br>
+        <a href="#team">Team</a></br>
+        <a href="#contacts">Contact</a></br>
+      </nav>
+    </section>
   <!--End of Navigation-->
 
 <!--Body of website-->
-    <p>Our Process</p>
 
 <!--Identify-->
-    <img src="./resources/images/identify.svg" alt="swirly line">
-    <p>Identify</p>
-    <p>We focus on the most improtant details.</p>
+    <div id="process">Our Process<br>
+
+    <img src="./resources/images/identify.svg" alt="swirly line" color: gray>
+    <p class="workFlow">Identify</p>
+    <p class="definition">We focus on the most improtant details.</p>
 
 <!--Understand-->
     <img src="./resources/images/understand.svg" alt="arrows in a circle">
-    <p>Understand</p>
-    <p>We study projects inside and out.</p>
+    <p class="workFlow">Understand</p>
+    <p class="definition">We study projects inside and out.</p>
 
 <!--Execute-->
     <img src="./resources/images/execute.svg" alt="3-D arrow">
-    <p>Execute</p>
-    <p>We put everything we have into our work.</p>
+    <p class="workFlow">Execute</p>
+    <p class="definition">We put everything we have into our work.</p>
+  </div>
 
 <!--Design-->
-    <p>Designed in New York</p>
+    <p class="miniHeader">Designed in New York</p>
 
 <!--Portfolio-->
-    <p>Portfolio</p>
-    <p>Coming Soon</p>
+    <div id="work" class="workFlow">Portfolio</div>
+    <p class="definition">Coming Soon</p>
 
 <!--Team-->
-    <p>Team</p>
-    <p>We're Hiring!</p>
+    <div id="team" class="workFlow">Team</div>
+    <p class="definition">We're Hiring!</p>
 
 <!--Contact-->
-    <p>Contact</p>
-    <p>Phone: (555-555-5555)</p>
-    <p>E-mail: test@example.com</p>
-    <p>Twitter: @test</p>
+    <div id="workFlow"class="workFlow">Contact</div>
+    <p class="definition">Phone: (555-555-5555)</p>
+    <p class="definition">E-mail: test@example.com</p>
+    <p class="definition">Twitter: @test</p>
 
 <!--Footer-->
     <footer>
