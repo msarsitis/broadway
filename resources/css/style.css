@@ -6,11 +6,12 @@ body {
 .picture {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
-}
-.heading {
-  font-size: 70px;
-  font-weight: bold;
   color: white;
+  font-weight: bold;
+  }
+
+  .picture h1 {
+    font-size: 70px;
   }
 
 .navButtons {
@@ -40,12 +41,11 @@ body {
   background-repeat: no-repeat;
 }
 
-.foot {
+.footer {
   text-align: left;
   bottom: 0px;
   font-size: 11px;
   color: white;
   background-color: dimgray;
   width: 100%;
-
 }
